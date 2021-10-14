@@ -1,0 +1,95 @@
+body {
+  max-width: 1440px;
+  max-height: 1024px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-group {
+  display: flex;
+  margin: 122px 178px 529px 178px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 253px;
+  height: 373px;
+  margin-right: 24px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.card-img-box {
+  width: 226px;
+  height: 207px;
+  margin: 13px 16px 0 14px;
+  background: #f7f7f7;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+.card-title {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 13px;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+
+.card-text {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  width: 225px;
+  height: 24px;
+  text-align: justify;
+  line-height: 14px;
+  color: #000000;
+  padding-left: 14px;
+}
+
+.card button {
+  font-family: Arial;
+  margin-left: 13px;
+  margin-right: 14px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  border: none;
+  width: 226px;
+  height: 40px;
+  background: #2d9cdb;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) and (min-width: 350px) {
+  body {
+    margin: auto;
+    align-items: stretch;
+  }
+
+  .card-group {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+  }
+
+  .card {
+    margin-bottom: 24px;
+  }
+}
